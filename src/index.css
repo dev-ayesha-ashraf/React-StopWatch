@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  background-color: rgb(57 144 239);
+}
+.buttonOne{
+  background-color: rgb(44 63 186);;
+}
+.buttonTwo{
+  background-color: rgb(242 70 70);
+}
+.buttonThree{
+  background-color: rgb(54 124 88);;
+}
+.buttonOne:hover{
+  background-color: rgb(20, 35, 135);;
+}
+.buttonTwo:hover{
+  background-color: rgb(243, 17, 17);
+}
+.buttonThree:hover{
+  background-color: rgb(36, 79, 57);;
+}
+.time{
+  color: rgb(49, 133, 169);
+  font-family: monospace;
+}
+@media(max-width:480px){
+  .time{
+    font-size: 43px;
+  }
+}
